@@ -1,0 +1,28 @@
+﻿@page
+@model RIIEdition.Pages.AdminPages.CreateRoleModel
+@{
+}
+<body>
+  <partial name="_HeaderPartial" />
+    <div class="container">
+        <main role="main" >
+          <h3>
+    Create new role
+</h3>
+
+    <form method="post">
+        <div class="form-group col-md-5">
+            <label asp-for="RoleName"></label>
+            <input class="form-control" asp-for="RoleName" />
+            <span asp-validation-for="RoleName" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary ">Create a role</button>
+    </form>
+
+
+        </main>
+    </div>
+<partial name="_ScriptsPartial" />
+
+</body>
+
