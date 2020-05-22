@@ -10,7 +10,7 @@
   "publish": "npm run release && dotnet publish -c Release"
  },
  "dependencies": {
-  "bootstrap": "4.1.1",
+  "bootstrap": "4.3.1",
   "jquery": "3.3.1",
   "jquery-validation": "1.17.0",
   "jquery-validation-unobtrusive": "3.2.10",
